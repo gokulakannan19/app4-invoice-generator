@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54dd603b-1ec7-4abb-8173-cce386e67cae" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/app4-invoice-generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoies/002 10001-2023.1.18.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoies/002 10002-2023.1.18.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoies/002 10003-2023.1.18.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="54dd603b-1ec7-4abb-8173-cce386e67cae" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

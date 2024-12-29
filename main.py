@@ -7,26 +7,21 @@ filepaths = glob.glob("invoices/*.xlsx")
 # print(files)
 
 for filepath in filepaths:
+    df = pd.read_excel(filepath)
+
     filename = Path(filepath).stem
     invoice_no = filename.split("-")[0]
-    # date =
-    # filename = file.split("\\")[1]
-    # invoice_value_list = filename.split("-")
-    # invoice_no = invoice_value_list[0]
-    # date = invoice_value_list[1].strip(".xlsx")
+    date = filename.split("-")[1]
 
     invoice_no = f"Invoice No: {invoice_no}"
-    # date = f"Date: {date}"
+    date = f"Date: {date}"
 
-    df = pd.read_excel(filepath)
-    print(df.columns)
-
-    # Header
     pdf = FPDF(orientation="P", unit="mm", format="A4")
     pdf.add_page()
-    pdf.set_font(family="Times", size=22, style="B")
-    pdf.cell(w=0, h=12, txt=invoice_no, ln=1, align="L", border=0)
-    # pdf.cell(w=0, h=12, txt=date, ln=1, align="L", border=0)
+
+    pdf.set_font(family="Times", size=16, style="B")
+    pdf.cell(w=0, h=8, txt=invoice_no, ln=1, align="L", border=0)
+    pdf.cell(w=0, h=8, txt=date, ln=1, align="L", border=0)
 
     # pdf.ln()
     # Table
